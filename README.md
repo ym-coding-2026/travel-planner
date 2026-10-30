@@ -161,7 +161,7 @@ python -m travel_planner.api.demo serve --port 8000   # 浏览器开 http://127.
 3. **地理距离用 haversine 直线近似**，未接实时路况；`real_mode` 下 `get_route` 才有真实耗时。
 4. **budget 砍点策略机械**（按门票单价降序），未结合用户偏好权重，可能砍掉高偏好点。
 5. **偏好匹配是标签匹配，非语义理解**（无 embedding / 检索式偏好解析）。
-6. **POI 库规模小**：主项目 mock 仅 3 城×10，评测扩到 10 城×6 是 `eval/` 内置库、尚未回流主项目 `mock_data.py`。
+6. **POI 库规模小**：主项目 `mock_data.py` 已扩到 10 城（京沪蓉各 10 + 7 新城市各 6 = 72 POI），但仍是静态手写库，未接真实数据源 / 联网核实。
 7. **未做天气联动改期**（天气只查不驱动重排）、**未做用户历史偏好记忆 / 学习**。
 8. **`real_mode` 下 `get_hotel_price` 高德无对应接口**，显式抛 `NotImplementedError`，需接第三方。
 9. **并发未压测**：Checkpointer 单 sqlite 连接，未验证高并发多用户场景。
