@@ -11,6 +11,8 @@ dependencies = [
     "httpx>=0.27",
     # --- LangGraph 编排层 ---
     "langgraph>=1.0",
+    # SqliteSaver 在独立的包里（langgraph 本体不带）
+    "langgraph-checkpoint-sqlite>=2.0",
     # checkpoint 落盘用 AsyncSqliteSaver（异步节点必须用异步 saver）
     "aiosqlite>=0.19",
     # --- HTTP 层 ---
