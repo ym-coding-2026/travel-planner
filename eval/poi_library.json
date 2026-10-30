@@ -1,0 +1,82 @@
+{
+  "北京": [
+    {"id": "bj-01", "name": "故宫博物院", "category": "历史古迹", "lat": 39.9163, "lng": 116.3972, "address": "北京市东城区景山前街4号", "rating": 4.8, "avg_cost": 120, "duration": 180, "open_time": "08:30-17:00", "ticket_price": 60, "tags": ["历史", "宫殿", "世界遗产"]},
+    {"id": "bj-02", "name": "天安门广场", "category": "现代地标", "lat": 39.9055, "lng": 116.3976, "address": "北京市东城区长安街", "rating": 4.7, "avg_cost": 0, "duration": 60, "open_time": "05:00-22:00", "ticket_price": 0, "tags": ["广场", "地标"]},
+    {"id": "bj-03", "name": "颐和园", "category": "公园", "lat": 39.9999, "lng": 116.2755, "address": "北京市海淀区新建宫门路19号", "rating": 4.7, "avg_cost": 100, "duration": 180, "open_time": "06:30-18:00", "ticket_price": 30, "tags": ["园林", "世界遗产", "湖"]},
+    {"id": "bj-04", "name": "八达岭长城", "category": "历史古迹", "lat": 40.3597, "lng": 116.0200, "address": "北京市延庆区八达岭镇", "rating": 4.8, "avg_cost": 150, "duration": 240, "open_time": "07:30-17:30", "ticket_price": 40, "tags": ["长城", "世界遗产"]},
+    {"id": "bj-05", "name": "天坛公园", "category": "历史古迹", "lat": 39.8822, "lng": 116.4066, "address": "北京市东城区天坛内东里", "rating": 4.6, "avg_cost": 80, "duration": 120, "open_time": "06:00-21:00", "ticket_price": 15, "tags": ["祭坛", "世界遗产"]},
+    {"id": "bj-06", "name": "南锣鼓巷", "category": "街区", "lat": 39.9350, "lng": 116.4030, "address": "北京市东城区南锣鼓巷", "rating": 4.4, "avg_cost": 50, "duration": 90, "open_time": "全天", "ticket_price": 0, "tags": ["胡同", "美食街", "逛街"]}
+  ],
+  "上海": [
+    {"id": "sh-01", "name": "外滩", "category": "现代地标", "lat": 31.2397, "lng": 121.4905, "address": "上海市黄浦区中山东一路", "rating": 4.7, "avg_cost": 0, "duration": 90, "open_time": "全天", "ticket_price": 0, "tags": ["夜景", "地标", "江景"]},
+    {"id": "sh-02", "name": "东方明珠", "category": "现代地标", "lat": 31.2397, "lng": 121.4998, "address": "上海市浦东新区世纪大道1号", "rating": 4.6, "avg_cost": 150, "duration": 120, "open_time": "09:00-21:00", "ticket_price": 160, "tags": ["地标", "观景", "塔"]},
+    {"id": "sh-03", "name": "豫园", "category": "历史古迹", "lat": 31.2270, "lng": 121.4920, "address": "上海市黄浦区安仁街137号", "rating": 4.5, "avg_cost": 80, "duration": 120, "open_time": "08:30-17:00", "ticket_price": 40, "tags": ["园林", "老城厢"]},
+    {"id": "sh-04", "name": "南京路步行街", "category": "商业街", "lat": 31.2360, "lng": 121.4790, "address": "上海市黄浦区南京东路", "rating": 4.4, "avg_cost": 100, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["购物", "美食街", "逛街"]},
+    {"id": "sh-05", "name": "上海博物馆", "category": "博物馆", "lat": 31.2286, "lng": 121.4750, "address": "上海市黄浦区人民大道201号", "rating": 4.7, "avg_cost": 0, "duration": 180, "open_time": "09:00-17:00", "ticket_price": 0, "tags": ["文物", "博物馆", "免费"]},
+    {"id": "sh-06", "name": "田子坊", "category": "街区", "lat": 31.2100, "lng": 121.4730, "address": "上海市黄浦区泰康路210弄", "rating": 4.3, "avg_cost": 80, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["弄堂", "文创", "美食街"]}
+  ],
+  "成都": [
+    {"id": "cd-01", "name": "宽窄巷子", "category": "街区", "lat": 30.6690, "lng": 104.0560, "address": "成都市青羊区金河路口", "rating": 4.5, "avg_cost": 80, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["胡同", "美食街", "喝茶"]},
+    {"id": "cd-02", "name": "锦里", "category": "美食街", "lat": 30.6400, "lng": 104.2580, "address": "成都市武侯区武侯祠大街231号", "rating": 4.4, "avg_cost": 70, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["美食街", "古街", "小吃"]},
+    {"id": "cd-03", "name": "武侯祠", "category": "历史古迹", "lat": 30.6410, "lng": 104.2560, "address": "成都市武侯区武侯祠大街231号", "rating": 4.6, "avg_cost": 90, "duration": 120, "open_time": "08:00-21:00", "ticket_price": 50, "tags": ["三国", "祠堂", "历史"]},
+    {"id": "cd-04", "name": "成都大熊猫繁育研究基地", "category": "自然风光", "lat": 30.7330, "lng": 104.1460, "address": "成都市成华区熊猫大道1375号", "rating": 4.8, "avg_cost": 100, "duration": 240, "open_time": "07:30-18:00", "ticket_price": 55, "tags": ["熊猫", "亲子", "自然"]},
+    {"id": "cd-05", "name": "杜甫草堂", "category": "历史古迹", "lat": 30.6590, "lng": 104.0390, "address": "成都市青羊区青华路37号", "rating": 4.5, "avg_cost": 80, "duration": 120, "open_time": "08:00-18:00", "ticket_price": 50, "tags": ["诗人", "园林", "历史"]},
+    {"id": "cd-06", "name": "春熙路", "category": "商业街", "lat": 30.6570, "lng": 104.0810, "address": "成都市锦江区春熙路", "rating": 4.3, "avg_cost": 100, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["购物", "商圈", "美食街"]}
+  ],
+  "杭州": [
+    {"id": "hz-01", "name": "西湖", "category": "公园", "lat": 30.2592, "lng": 120.1490, "address": "杭州市西湖区龙井路1号", "rating": 4.8, "avg_cost": 0, "duration": 180, "open_time": "全天", "ticket_price": 0, "tags": ["湖", "世界遗产", "自然"]},
+    {"id": "hz-02", "name": "灵隐寺", "category": "宗教场所", "lat": 30.2410, "lng": 120.1010, "address": "杭州市西湖区法云弄1号", "rating": 4.7, "avg_cost": 75, "duration": 150, "open_time": "07:00-18:00", "ticket_price": 75, "tags": ["寺庙", "佛教", "山"]},
+    {"id": "hz-03", "name": "西溪湿地", "category": "公园", "lat": 30.2680, "lng": 120.0780, "address": "杭州市西湖区天目山路518号", "rating": 4.6, "avg_cost": 80, "duration": 180, "open_time": "08:00-17:30", "ticket_price": 80, "tags": ["湿地", "自然", "生态"]},
+    {"id": "hz-04", "name": "宋城", "category": "主题乐园", "lat": 30.1700, "lng": 120.1100, "address": "杭州市之江路148号", "rating": 4.5, "avg_cost": 300, "duration": 240, "open_time": "09:00-21:00", "ticket_price": 320, "tags": ["演出", "亲子", "乐园"]},
+    {"id": "hz-05", "name": "雷峰塔", "category": "历史古迹", "lat": 30.2320, "lng": 120.1480, "address": "杭州市西湖区南山路15号", "rating": 4.6, "avg_cost": 40, "duration": 90, "open_time": "08:00-20:30", "ticket_price": 40, "tags": ["塔", "传说", "西湖"]},
+    {"id": "hz-06", "name": "河坊街", "category": "街区", "lat": 30.2440, "lng": 120.1700, "address": "杭州市上城区河坊街", "rating": 4.4, "avg_cost": 60, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["古街", "美食街", "逛街"]}
+  ],
+  "西安": [
+    {"id": "xa-01", "name": "兵马俑", "category": "历史古迹", "lat": 34.3850, "lng": 109.2730, "address": "西安市临潼区秦陵北路", "rating": 4.8, "avg_cost": 120, "duration": 240, "open_time": "08:30-17:00", "ticket_price": 120, "tags": ["世界遗产", "考古", "秦朝"]},
+    {"id": "xa-02", "name": "大雁塔", "category": "历史古迹", "lat": 34.2200, "lng": 108.9640, "address": "西安市雁塔区雁塔路", "rating": 4.7, "avg_cost": 50, "duration": 120, "open_time": "08:00-21:00", "ticket_price": 50, "tags": ["塔", "唐朝", "地标"]},
+    {"id": "xa-03", "name": "西安城墙", "category": "历史古迹", "lat": 34.2650, "lng": 108.9470, "address": "西安市碑林区南大街", "rating": 4.6, "avg_cost": 54, "duration": 150, "open_time": "08:00-22:00", "ticket_price": 54, "tags": ["城墙", "明朝", "地标"]},
+    {"id": "xa-04", "name": "回民街", "category": "美食街", "lat": 34.2670, "lng": 108.9540, "address": "西安市莲湖区北院门", "rating": 4.5, "avg_cost": 60, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["美食街", "小吃", "逛街"]},
+    {"id": "xa-05", "name": "华清宫", "category": "历史古迹", "lat": 34.3570, "lng": 109.2120, "address": "西安市临潼区华清路38号", "rating": 4.6, "avg_cost": 120, "duration": 180, "open_time": "07:30-18:00", "ticket_price": 120, "tags": ["唐朝", "温泉", "世界遗产"]},
+    {"id": "xa-06", "name": "陕西历史博物馆", "category": "博物馆", "lat": 34.2620, "lng": 108.9450, "address": "西安市雁塔区小寨东路91号", "rating": 4.7, "avg_cost": 0, "duration": 180, "open_time": "08:30-18:00", "ticket_price": 0, "tags": ["文物", "博物馆", "免费"]}
+  ],
+  "广州": [
+    {"id": "gz-01", "name": "广州塔", "category": "现代地标", "lat": 23.1060, "lng": 113.3240, "address": "广州市海珠区阅江西路222号", "rating": 4.6, "avg_cost": 150, "duration": 120, "open_time": "09:00-22:30", "ticket_price": 150, "tags": ["地标", "观景", "塔"]},
+    {"id": "gz-02", "name": "陈家祠", "category": "历史古迹", "lat": 23.1290, "lng": 113.2550, "address": "广州市荔湾区中山七路恩龙里34号", "rating": 4.6, "avg_cost": 10, "duration": 120, "open_time": "08:30-17:30", "ticket_price": 10, "tags": ["祠堂", "岭南", "建筑"]},
+    {"id": "gz-03", "name": "沙面岛", "category": "街区", "lat": 23.1080, "lng": 113.2470, "address": "广州市荔湾区沙面", "rating": 4.5, "avg_cost": 0, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["欧式", "江景", "拍照"]},
+    {"id": "gz-04", "name": "长隆欢乐世界", "category": "主题乐园", "lat": 22.9990, "lng": 113.3290, "address": "广州市番禺区汉溪大道东299号", "rating": 4.6, "avg_cost": 300, "duration": 480, "open_time": "09:30-21:00", "ticket_price": 250, "tags": ["乐园", "亲子", "演出"]},
+    {"id": "gz-05", "name": "北京路步行街", "category": "商业街", "lat": 23.1280, "lng": 113.2700, "address": "广州市越秀区北京路", "rating": 4.4, "avg_cost": 80, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["购物", "美食街", "古街"]},
+    {"id": "gz-06", "name": "白云山", "category": "自然风光", "lat": 23.2580, "lng": 113.2980, "address": "广州市白云区同和街道", "rating": 4.5, "avg_cost": 5, "duration": 240, "open_time": "06:00-21:00", "ticket_price": 5, "tags": ["山", "自然", "徒步"]}
+  ],
+  "深圳": [
+    {"id": "sz-01", "name": "世界之窗", "category": "主题乐园", "lat": 22.5390, "lng": 113.9740, "address": "深圳市南山区深南大道9037号", "rating": 4.5, "avg_cost": 220, "duration": 360, "open_time": "09:00-21:30", "ticket_price": 220, "tags": ["乐园", "世界景观", "亲子"]},
+    {"id": "sz-02", "name": "欢乐谷", "category": "主题乐园", "lat": 22.5460, "lng": 113.9870, "address": "深圳市南山区侨城西街1号", "rating": 4.6, "avg_cost": 230, "duration": 480, "open_time": "09:30-21:00", "ticket_price": 230, "tags": ["乐园", "刺激", "亲子"]},
+    {"id": "sz-03", "name": "莲花山公园", "category": "公园", "lat": 22.5610, "lng": 114.0580, "address": "深圳市福田区红荔路6030号", "rating": 4.6, "avg_cost": 0, "duration": 120, "open_time": "06:00-22:30", "ticket_price": 0, "tags": ["公园", "城市观景", "邓小平"]},
+    {"id": "sz-04", "name": "红树林自然保护区", "category": "自然风光", "lat": 22.5300, "lng": 113.9300, "address": "深圳市福田区滨海大道", "rating": 4.5, "avg_cost": 0, "duration": 150, "open_time": "全天", "ticket_price": 0, "tags": ["湿地", "候鸟", "自然"]},
+    {"id": "sz-05", "name": "华侨城创意文化园", "category": "街区", "lat": 22.5480, "lng": 113.9650, "address": "深圳市南山区香山东街", "rating": 4.4, "avg_cost": 0, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["文创", "艺术", "逛街"]},
+    {"id": "sz-06", "name": "地王大厦", "category": "现代地标", "lat": 22.5470, "lng": 114.1100, "address": "深圳市罗湖区深南东路5002号", "rating": 4.5, "avg_cost": 80, "duration": 90, "open_time": "09:00-21:00", "ticket_price": 80, "tags": ["地标", "观景", "天际线"]}
+  ],
+  "南京": [
+    {"id": "nj-01", "name": "中山陵", "category": "历史古迹", "lat": 32.0630, "lng": 118.8490, "address": "南京市玄武区石象路7号", "rating": 4.7, "avg_cost": 0, "duration": 180, "open_time": "08:30-17:00", "ticket_price": 0, "tags": ["陵墓", "民国", "山"]},
+    {"id": "nj-02", "name": "夫子庙", "category": "历史古迹", "lat": 32.0260, "lng": 118.7880, "address": "南京市秦淮区贡院街", "rating": 4.5, "avg_cost": 30, "duration": 150, "open_time": "全天", "ticket_price": 30, "tags": ["古街", "秦淮", "美食街"]},
+    {"id": "nj-03", "name": "明孝陵", "category": "历史古迹", "lat": 32.0590, "lng": 118.8430, "address": "南京市玄武区石象路7号", "rating": 4.6, "avg_cost": 70, "duration": 180, "open_time": "06:30-18:00", "ticket_price": 70, "tags": ["明朝", "陵墓", "世界遗产"]},
+    {"id": "nj-04", "name": "总统府", "category": "历史古迹", "lat": 32.0470, "lng": 118.7960, "address": "南京市玄武区长江路292号", "rating": 4.6, "avg_cost": 35, "duration": 150, "open_time": "08:30-18:00", "ticket_price": 35, "tags": ["民国", "建筑", "历史"]},
+    {"id": "nj-05", "name": "玄武湖", "category": "公园", "lat": 32.0680, "lng": 118.7970, "address": "南京市玄武区玄武巷1号", "rating": 4.6, "avg_cost": 0, "duration": 150, "open_time": "全天", "ticket_price": 0, "tags": ["湖", "公园", "自然"]},
+    {"id": "nj-06", "name": "侵华日军南京大屠杀纪念馆", "category": "博物馆", "lat": 32.0360, "lng": 118.7480, "address": "南京市建邺区水西门大街418号", "rating": 4.7, "avg_cost": 0, "duration": 120, "open_time": "08:30-17:00", "ticket_price": 0, "tags": ["历史", "纪念馆", "免费"]}
+  ],
+  "武汉": [
+    {"id": "wh-01", "name": "黄鹤楼", "category": "历史古迹", "lat": 30.5460, "lng": 114.3060, "address": "武汉市武昌区蛇山西山坡1号", "rating": 4.6, "avg_cost": 60, "duration": 120, "open_time": "08:00-18:00", "ticket_price": 60, "tags": ["塔", "唐诗", "地标"]},
+    {"id": "wh-02", "name": "东湖", "category": "公园", "lat": 30.5580, "lng": 114.3900, "address": "武汉市武昌区沿湖大道", "rating": 4.6, "avg_cost": 0, "duration": 180, "open_time": "全天", "ticket_price": 0, "tags": ["湖", "自然", "骑行"]},
+    {"id": "wh-03", "name": "武汉大学", "category": "现代地标", "lat": 30.5380, "lng": 114.3640, "address": "武汉市武昌区八一路299号", "rating": 4.5, "avg_cost": 0, "duration": 150, "open_time": "全天", "ticket_price": 0, "tags": ["校园", "樱花", "建筑"]},
+    {"id": "wh-04", "name": "户部巷", "category": "美食街", "lat": 30.5500, "lng": 114.3050, "address": "武汉市武昌区自由路", "rating": 4.4, "avg_cost": 40, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["美食街", "小吃", "古街"]},
+    {"id": "wh-05", "name": "江汉路步行街", "category": "商业街", "lat": 30.5860, "lng": 114.2870, "address": "武汉市江汉区江汉路", "rating": 4.3, "avg_cost": 70, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["购物", "商圈", "江景"]},
+    {"id": "wh-06", "name": "湖北省博物馆", "category": "博物馆", "lat": 30.5660, "lng": 114.3670, "address": "武汉市武昌区东湖路156号", "rating": 4.7, "avg_cost": 0, "duration": 180, "open_time": "09:00-17:00", "ticket_price": 0, "tags": ["文物", "博物馆", "编钟"]}
+  ],
+  "重庆": [
+    {"id": "cq-01", "name": "洪崖洞", "category": "历史古迹", "lat": 29.5630, "lng": 106.5830, "address": "重庆市渝中区嘉陵江滨江路", "rating": 4.6, "avg_cost": 0, "duration": 150, "open_time": "全天", "ticket_price": 0, "tags": ["吊脚楼", "夜景", "地标"]},
+    {"id": "cq-02", "name": "解放碑", "category": "商业街", "lat": 29.5580, "lng": 106.5770, "address": "重庆市渝中区解放碑步行街", "rating": 4.4, "avg_cost": 60, "duration": 120, "open_time": "全天", "ticket_price": 0, "tags": ["商圈", "地标", "购物"]},
+    {"id": "cq-03", "name": "磁器口古镇", "category": "街区", "lat": 29.5830, "lng": 106.4590, "address": "重庆市沙坪坝区磁器口古镇", "rating": 4.4, "avg_cost": 40, "duration": 150, "open_time": "全天", "ticket_price": 0, "tags": ["古镇", "美食街", "古街"]},
+    {"id": "cq-04", "name": "长江索道", "category": "现代地标", "lat": 29.5700, "lng": 106.5900, "address": "重庆市渝中区新华路151号", "rating": 4.5, "avg_cost": 20, "duration": 60, "open_time": "07:30-22:30", "ticket_price": 20, "tags": ["索道", "江景", "体验"]},
+    {"id": "cq-05", "name": "大足石刻", "category": "历史古迹", "lat": 29.7070, "lng": 105.7900, "address": "重庆市大足区宝顶镇", "rating": 4.7, "avg_cost": 100, "duration": 240, "open_time": "08:30-18:00", "ticket_price": 115, "tags": ["世界遗产", "石刻", "佛教"]},
+    {"id": "cq-06", "name": "武隆天生三桥", "category": "自然风光", "lat": 29.2900, "lng": 107.7700, "address": "重庆市武隆区仙女山镇", "rating": 4.7, "avg_cost": 95, "duration": 360, "open_time": "08:00-17:00", "ticket_price": 95, "tags": ["自然", "喀斯特", "世界遗产"]}
+  ]
+}

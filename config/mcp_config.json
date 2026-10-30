@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "amap-travel": {
+      "transport": "stdio",
+      "command": "python",
+      "args": ["-m", "travel_planner.tools.mcp_server"],
+      "env": {
+        "AMAP_REAL_MODE": "false"
+      }
+    }
+  }
+}

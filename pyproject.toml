@@ -1,0 +1,50 @@
+[project]
+name = "travel-planner"
+version = "0.1.0"
+description = "多 Agent 旅游规划系统（LangGraph + MCP + FastAPI）"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.5",
+    "pydantic-settings>=2.0",
+    "mcp>=1.2",
+    "tenacity>=8.2",
+    "httpx>=0.27",
+    # --- LangGraph 编排层 ---
+    "langgraph>=1.0",
+    # checkpoint 落盘用 AsyncSqliteSaver（异步节点必须用异步 saver）
+    "aiosqlite>=0.19",
+    # --- HTTP 层 ---
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    # SSE：EventSourceResponse（自带 ping 保活、断连检测）
+    "sse-starlette>=2.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+# 真实调用 LLM 时才需要（离线测试全部用替身，不装也能跑）
+llm = [
+    "langchain-openai>=0.2",
+    # 让 .env 里的 OPENAI_API_KEY 能被读进 os.environ
+    "python-dotenv>=1.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+filterwarnings = [
+    # aiosqlite 的连接线程在 app 关闭时由 close() 正常回收；
+    # 若进程退出时仍有未关闭的连接，pytest 会报这个警告（不是业务问题）
+    "ignore::pytest.PytestUnhandledThreadExceptionWarning",
+]

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# env
+.env
+
+# data / db (不要提交 18MB 的 demo 库)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+demo_api.sqlite*
+
+# scratch
+res*.txt
+err*.txt
+pip*.txt
+validate_out.txt
+verify_out.txt
+result.json
+request.json
