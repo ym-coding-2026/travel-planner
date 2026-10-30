@@ -152,6 +152,30 @@ python -m travel_planner.api.demo serve --port 8000   # 浏览器开 http://127.
 **HTTP 接口层（FastAPI）**：`POST /plan`(202 立即返回 task_id) · `GET /plan/{id}` · `/trace` · `/stream`(SSE) · `/healthz`。结果从 Checkpointer 读取，进程重启仍可查。
 > 完整测试 / 加 key / 报错排查见 **[TESTING.md](TESTING.md)**；图端到端 trace 见 **[GRAPH_AND_DEMO.md](GRAPH_AND_DEMO.md)**。
 
+### 4.1 运行效果（真实运行截图）
+
+以下截图来自一次真实请求（西安 3 天 / ¥3500，DeepSeek 驱动），证明系统真实可跑、多 Agent 编排真实发生：
+
+**① API 接口文档（`GET /docs`）**
+
+定制中文文档，副标题直接亮出技术栈（LangGraph + MCP + 离线评测），并列出全部端点。`POST /plan` 为异步接口（202 立即返回 `task_id`），结果通过 `GET /plan/{task_id}` 拉取。
+
+![API 文档](docs/images/api_docs.png)
+
+**② 规划结果（`GET /plan/{task_id}`）**
+
+返回逐日行程（`schedule`）、预算复核与 `review` 检查项。注意 `partial: true` 与 `reasons: ["flipped_poi"...]`——当预算实在压不下来时，系统**部分满足、诚实交付**，而不是假装成功或抛 500。
+
+![规划结果](docs/images/plan_result.png)
+
+**③ 执行画像（`GET /plan/{task_id}/trace`）**
+
+这是「多 Agent 编排真实发生」的铁证：`node_calls` 显示 `supervisor=2 / poi_agent=1 / route_agent=1 / budget_agent=1 / itinerary_agent=1 / review_agent=1`，端到端 `3948ms`，每个节点的时延都可见。
+
+![执行画像](docs/images/trace_profile.png)
+
+> 说明：`/trace` 当前记录**节点时延与调用次数**；token 消耗统计在评测侧（`eval/run_eval.py`，真实单例实测 13343 in / 379 out）。
+
 ---
 
 ## 五、已知局限与改进方向（诚实清单）
